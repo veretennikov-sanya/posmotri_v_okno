@@ -150,10 +150,6 @@ ol {
   background: linear-gradient(to right, #545050 392px, transparent 0%);
 }
 
-.content__card-link_current {
-  background-image: #545050;
-}
-
 .content__card-link_current > .content__video-card {
   background: linear-gradient(to right, #545050 392px, transparent 0%);
 }
@@ -238,7 +234,7 @@ fieldset {
   outline: 1px solid #fff;
 }
 
-.button:focus{
+.button:focus {
   outline: none;
 }
 
@@ -264,7 +260,6 @@ fieldset {
   content: "";
 }
 
-
 .search-form__label-text {
   font-size: 18px;
   font-style: normal;
@@ -285,7 +280,7 @@ fieldset {
 .search-form__textfield {
   background-color: transparent;
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
+  font-family: "Fira Sans Condensed", "Arial", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -315,4 +310,3 @@ fieldset {
 .search-form__label-text:hover {
   text-decoration: underline;
 }
-
